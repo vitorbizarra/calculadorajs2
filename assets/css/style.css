@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=ZCOOL+QingKe+HuangYou&display=swap');
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #8b00cc;
+}
+
+.container {
+  max-width: 340px;
+  height: 500px;
+  margin: 50px auto;
+  background: #1A1A1A;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.calculadora {
+  width: 300px;
+  height: 460px;
+}
+
+.display {
+  font-size: 4em;
+  width: 100%;
+  height: 100px;
+  text-align: right;
+  font-family: 'ZCOOL QingKe HuangYou';
+  border: none;
+  background: #4D4D4D;
+  color: #fff;
+  border-radius: 6px;
+}
+
+td {
+  padding: 4px;
+}
+
+.btn {
+  width: 100%;
+  height: 60px;
+  font-size: 1.6em;
+  font-family: 'Roboto', sans-serif;
+  border: none;
+  background: #636363;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  background: #9e9e9e;
+}
+
+.btn-clear {
+  background: #FA4443;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-clear:hover {
+  background: #ff0b0b;
+}
+
+.btn-eq {
+  background: #F4901C;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-eq:hover {
+  background: #ff8800;
+}
